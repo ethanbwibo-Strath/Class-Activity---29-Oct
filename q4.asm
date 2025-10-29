@@ -1,7 +1,7 @@
 section .text
-    global factorial      ; Make function visible to C
+    global q4      
 
-factorial:
+q4:
     mov eax, 1            ; result = 1
     mov ecx, edi          ; copy n (C passes it in edi on x86_64)
 
